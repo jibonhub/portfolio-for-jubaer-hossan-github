@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shared style */
+.logo h2 {
+  font-size: 45px;
+  font-weight: 900px;
+}
+
+.color-orange {
+  color: #FD6E0A;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* main style */
+header {
+  background-color: #fdf5f0;
+  padding-top: 50px;
+}
+
+nav {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid rebeccapurple; */
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .menu {
+  display: flex;
+  gap: 51px;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav .menu a {
+  font-size: 20px;
+  color: #474747;
+  text-decoration: none;
+  align-items: center;
+}
+
+.btn {
+  background-color: #FD6E0A;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 35px 19px 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
